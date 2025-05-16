@@ -7,9 +7,9 @@ name = "factorio-learning-environment"
 version = "0.2.0rc3"
 description = "Factorio Learning Environment"
 authors = [
-    {name = "Jack Hopkins", email = "noreply@github.com"},
-    {name = "Mart Bakler", email = "noreply@github.com"},
-    {name = "Neel Kant", email = "contact@neelkant.io"}
+    {name = "ANON", email = "noreply@github.com"},
+    {name = "ANON", email = "noreply@github.com"},
+    {name = "ANON", email = "contact@neelkant.io"}
 ]
 readme = "README.md"
 requires-python = ">=3.10"

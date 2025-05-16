@@ -24,8 +24,7 @@ def parse_and_format(data):
 if __name__ == "__main__":
     # Read the JSON string
 
-    # Call the function to parse and format the JSONL string from /Users/jackhopkins/PycharmProjects/PaperclipMaximiser/src/llama_events.jsonl
-
+    
     # Get lines from the file
     file = open("//llama_events.jsonl")
     out_file = open("//gpt_events.jsonl", "w")
