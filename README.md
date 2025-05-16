@@ -82,7 +82,7 @@ pip install -e .
 
 2. **Install dependencies**:
 ```
-pip install psycopg2 lupa
+pip install -r env\src\requirements.txt
 # Install other dependencies if prompted by pip during runtime
 ```
 
