@@ -1,0 +1,12 @@
+{
+    "task_type": "spatial-reasoning",
+    "config":
+    {                    
+        "goal_description":"Identify the spatial errors in this factory.",
+        "trajectory_length": 16,
+        "task_key": "troubleshoot_copper_plate_factory",
+        "scenario": "copper_plate_factory_scenario",
+        "scenario_params": {
+        }
+    }
+}
