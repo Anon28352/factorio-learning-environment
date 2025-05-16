@@ -52,7 +52,7 @@ class AgentFactory:
 
             # Determine the module name
             relative_path = file_path.relative_to(agents_dir.parent)
-            module_path = str(relative_path).replace("/", ".").replace("\\", ".").replace(".py", "")
+            module_path = str(relative_path).replace(".py", "").replace("/", ".").replace("\\", ".")
 
             try:
                 # Import the module

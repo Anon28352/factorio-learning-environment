@@ -1,7 +1,7 @@
 [
-{"task": "iron_gear_wheel_throughput_16.json",
+{"task": "iron_gear_wheel_throughput.json",
 "model": "gpt-4o-mini-2024-07-18"},
-{"task": "plastic_bar_throughput_16.json",
+{"task": "plastic_bar_throughput.json",
 "model": "gpt-4o-mini-2024-07-18"},
 {"task": "open_play.json",
 "model": "gpt-4o-mini-2024-07-18"}

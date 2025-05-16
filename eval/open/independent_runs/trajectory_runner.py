@@ -390,6 +390,7 @@ async def get_next_version() -> int:
     """Get next available version number"""
     db_client = await create_db_client()
     version = await db_client.get_largest_version()
+    if not version: version = 0 
     await db_client.cleanup()
     return version + 1
 

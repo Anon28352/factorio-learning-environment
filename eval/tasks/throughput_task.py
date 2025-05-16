@@ -71,7 +71,7 @@ After each step the throughput of the factory is evaluated during 60 seconds of 
 class ThroughputTask(TaskABC):
     def __init__(self, trajectory_length, goal_description: str, task_key: str,
                   throughput_entity: Entity, quota: int, holdout_wait_period: int, pre_holdout_wait_period: int = 0,
-                  agent_instructions: Optional[List[str]] = None):
+                  agent_instructions: Optional[List[str]] = None, **kwargs):
         goal_description += f"\n{INSTRUCTIONS}"
         goal_description += "\n\n##Useful statistics\n" + CRAFTING_STATISTICS
         super().__init__(trajectory_length, 
