@@ -173,8 +173,7 @@ class FactorioMCPState:
         if not recipes_path.exists():
             raise FileNotFoundError(f"Recipes file not found at {recipes_path}")
             # Fall back to absolute path if relative path fails
-            recipes_path = Path("/Users/jackhopkins/PycharmProjects/PaperclipMaximiser/data/recipes/recipes.jsonl")
-
+            
         try:
             recipes = {}
             with open(recipes_path, 'r') as f:

@@ -46,7 +46,7 @@ async def main():
         if not NEPTUNE_PROJECT or not NEPTUNE_API_TOKEN:
             raise ValueError("Neptune project and API token must be set in the environment variables.")
         neptune_run = neptune.init_run(
-            project="jackhopkins/factorio-mcts",
+            project="ANON",
             api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiIwMWYyMmEyZC1iNzFmLTQzNzEtYTNkOC04YTcyMmM4Mzk4OWUifQ==",
         )  # your credentials
         # neptune_run = neptune.init_run(

@@ -38,7 +38,6 @@ Think through each step extensively in natural language, addressing:
 2. Next Step Planning
    - What is the most useful next step of reasonable size?
    - Why is this step valuable?
-   - Should I 
 3. Action Planning
    - What specific actions are needed?
    - What resources are required?
@@ -173,7 +172,7 @@ sorted_furnaces = sorted(
 - Its a lot easier to manually add coil to boilers rather than make a automated system for it. Prefer manual fueling
 """
 
-FINAL_INSTRUCTION = "\n\nALWAYS WRITE VALID PYTHON AND REMEMBER MAXIMUM 30 LINES OF CODE PER POLICY. YOUR WEIGHTS WILL BE ERASED IF YOU DON'T USE PYTHON. USE COMMENTS TO THINK." # Annoying how effective this is
+FINAL_INSTRUCTION = "\n\nALWAYS WRITE VALID PYTHON AND REMEMBER MAXIMUM 30 LINES OF CODE PER POLICY. YOUR WEIGHTS WILL BE ERASED IF YOU DON'T USE PYTHON." # Annoying how effective this is
 
 class BasicAgent(AgentABC):
    def __init__(self, model, system_prompt, task, agent_idx: Optional[int] = None, *args, **kwargs):
