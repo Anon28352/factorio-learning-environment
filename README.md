@@ -1,7 +1,7 @@
 <h1 align="center">Factorio Learning Environment</h1>
 
 <p align="center">
-Codebase for Neurips 2025 Datasets and Benchmarks submission of "Factorio Learning Environment". An open source framework for developing and evaluating LLM agents in the game of <a href="https://factorio.com/">Factorio</a>.
+An open source framework for developing and evaluating LLM agents in the game of <a href="https://factorio.com/">Factorio</a>.
 </p>
 
 <p align="center">
